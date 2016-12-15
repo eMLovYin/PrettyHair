@@ -21,6 +21,11 @@ namespace PrettyHair
             customerList.Add(new Customer(4, "Aras-Ali", "somewhere"));
         }
 
+        public List<Customer> RegisterCustomer()
+        {
+            return customerList;
+        }
+
         public Customer FindCustomer(int id)
         {
             return customerList.Find(x => x.CustomerNumber == id);

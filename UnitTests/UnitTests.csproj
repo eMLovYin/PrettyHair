@@ -53,6 +53,12 @@
     <Compile Include="Tests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PrettyHair\PrettyHair.csproj">
+      <Project>{5ca031f5-3615-40a6-954c-94fd36054a08}</Project>
+      <Name>PrettyHair</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>

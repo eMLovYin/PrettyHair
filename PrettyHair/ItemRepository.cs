@@ -29,11 +29,6 @@ namespace PrettyHair
             listOfWares.RemoveAll(item => item.Unsellable == true);
         }
 
-        public void AddWare()
-        {
-            listOfWares.Add(new Ware("somewhere", true));
-        }
-
         public List<Ware> GetWare()
         {
             return listOfWares;

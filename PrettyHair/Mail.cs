@@ -10,6 +10,21 @@ namespace PrettyHair
 
     public class Mail
     {
-        //hkjkl
+        private bool sentMail = true;
+
+        public void sendMail()
+        {
+            sentMail = true;
+        }
+
+        public void mailSent()
+        {
+            sentMail = true;
+        }
+
+        public void dontSend()
+        {
+            sentMail = false;
+        }
     }
 }
