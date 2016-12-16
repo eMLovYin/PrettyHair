@@ -8,6 +8,11 @@ namespace PrettyHair
 {
     public class Customer
     {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("hej");
+        }
+
         int customerNumber;
         string name;
         string address;

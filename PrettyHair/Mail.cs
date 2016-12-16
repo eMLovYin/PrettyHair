@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PrettyHair
 {
-    public delegate void MailHandler();
+    //public delegate void MailHandler();
 
     public class Mail
     {
