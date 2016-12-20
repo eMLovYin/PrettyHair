@@ -47,6 +47,8 @@
     <Compile Include="CustomerRepository.cs" />
     <Compile Include="ItemRepository.cs" />
     <Compile Include="Mail.cs" />
+    <Compile Include="Order.cs" />
+    <Compile Include="OrderRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Ware.cs" />
   </ItemGroup>

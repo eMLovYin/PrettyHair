@@ -17,7 +17,7 @@ namespace PrettyHair
             sentMail = true;
         }
 
-        public void mailSent()
+        public void MailSent()
         {
             sentMail = true;
         }
